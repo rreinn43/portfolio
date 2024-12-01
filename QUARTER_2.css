@@ -68,9 +68,6 @@ video,img{
     width: 250;
     height: 115;
     object-fit: cover;
-    transition: left 1s
-        height 1s
-        width 1s;
 }
 
 
@@ -81,37 +78,38 @@ video,img{
 
 .booklandia1 {
     z-index: 1;
-    position: absolute; top: 830; left: 70;
-    transition: 1s;
+    position: absolute; top: 840; left: 70;
+    transition: top 1s, left 1s, width 1s, height 1s ease-in-out;
 }
 .booklandia1:hover{
+    position: absolute; top: 840; left: 70;
     height: 300;
-    width: fit-content;
+    width: 550;
     z-index: 10;
 }
 
 .booklandia2 {
     z-index: 2;
-    position: absolute; top: 940; left: 70;
-    transition: 1s;
+    position: absolute; top: 950; left: 70;
+    width: 250; height: 115;
+    transition: top 1s, left 1s, width 1s, height 1s ease-in-out;
 }
 .booklandia2:hover{
-    top: 815;
-    left: 120;
+    position: absolute; top: 835; left: 70; 
     height: 350;
-    width: fit-content;
+    width: 300; 
     z-index: 10;
 }
 
 .booklandia3 {
     z-index: 3;
-    position: absolute; top: 1040; left: 70;
-    transition: 1s;
+    position: absolute; top: 1050; left: 70;
+    transition: top 1s, left 1s, width 1s, height 1s ease-out;
 }
 .booklandia3:hover{
-    top: 860;
+    position: absolute; top: 860;
     height: 300;
-    width: fit-content;
+    width: 310;
     z-index: 10;
 }
 
@@ -123,35 +121,36 @@ video,img{
 .cluster1 {
     z-index: 1;
     position: absolute; top: 830; left: 680;
-    transition: 1s;
+    transition: top 1s, left 1s, width 1s, height 1s ease-in-out;
 }
+
 .cluster1:hover{
-    height: 300;
-    width: fit-content;
+    position: absolute; height: 300;
+    width: 550;
     z-index: 10;
 }
 
 .cluster2 {
     z-index: 2;
     position: absolute; top: 940; left: 680;
-    transition: 1s;
+    transition: top 1s, left 1s, width 1s, height 1s ease-in-out;
 }
 .cluster2:hover{
     height: 300;
-    top: 870;
-    width: fit-content;
+    position: absolute; top: 870;
+    width: 550;
     z-index: 10;
 }
 
 .cluster3 {
     z-index: 3;
     position: absolute; top: 1040; left: 680;
-    transition: 1s;
+    transition: top 1s, left 1s, width 1s, height 1s ease-out;
 }
 .cluster3:hover{
-    top: 860;
+    position: absolute; top: 860;
     height: 300;
-    width: fit-content;
+    width: 550;
     z-index: 10;
 }
 
@@ -163,74 +162,72 @@ video,img{
 .historical1 {
     z-index: 1;
     position: absolute; top: 1670; left: 150;
-    transition: 1s;
+    transition: top 1s, left 1s, width 1s, height 1s ease-in-out;
 }
 .historical1:hover{
-    height: 400;
-    top: 1640; left: 170;
-    width: fit-content;
+    height: 600;
+    position: absolute; top: 1640; left: 170;
+    width: 300;
     z-index: 10;
 }
 
 .historical2 {
     z-index: 2;
     position: absolute; top: 1780; left: 150;
-    transition: 1s;
+    transition: top 1s, left 1s, width 1s, height 1s ease-in-out;
 }
 .historical2:hover{
-    top: 1670;
+    position: absolute; top: 1670;
     height: 350;
-    width: fit-content;
+    width: 360;
     z-index: 10;
 }
 
 .historical3 {
     z-index: 3;
     position: absolute; top: 1890; left: 150;
-    transition: 1s;
+    transition: top 1s, left 1s, width 1s, height 1s ease-out;
 }
 .historical3:hover{
-    top: 1670;
+    position: absolute; top: 1670;
     height: 350;
-    width: fit-content;
+    width: 620;
     z-index: 10;
 }
 
 .historical4 {
     z-index: 1;
     position: absolute; top: 1670; left: 890;
-    transition: 1s;
+    transition: top 1s, left 1s, width 1s, height 1s ease-in-out;
 }
 .historical4:hover{
     height: 350;
-    left: 540;
-    width: fit-content;
+    position: absolute; left: 780;
+    width: 360;
     z-index: 10;
 }
 
 .historical5 {
     z-index: 2;
     position: absolute; top: 1780; left: 890;
-    transition: 1s;
+    transition: top 1s, left 1s, width 1s, height 1s ease-in-out;
 }
 .historical5:hover{
     height: 350;
-    top: 1670;
-    left: 660;
-    width: fit-content;
+    position: absolute; top: 1670; left: 590;
+    width: 620;
     z-index: 10;
 }
 
 .historical6{
     z-index: 3;
     position: absolute; top: 1890; left: 890;
-    transition: 1s;
+    transition: top 1s, left 1s, width 1s, height 1s ease-out;
 }
 .historical6:hover{
-    top: 1670;
+    position: absolute; top: 1670; left: 590;
     height: 350;
-    left: 540;
-    width: fit-content;
+    width: 620;
     z-index: 10;
 }
 
@@ -243,85 +240,83 @@ video,img{
 .parade1 {
     z-index: 1;
     position: absolute; top: 1240; left: 150;
-    transition: 1s;
+    transition: top 1s, left 1s, width 1s, height 1s ease-in-out;
 }
 .parade1:hover{
     height: 350;
-    top: 1240;
-    width: fit-content;
+    position: absolute; top: 1240;
+    width: 620;
     z-index: 10;
 }
 
 .parade2 {
     z-index: 2;
     position: absolute; top: 1330; left: 150;
-    transition: 1s;
+    transition: top 1s, left 1s, width 1s, height 1s ease-in-out;
 }
 .parade2:hover{
-    top: 1300; left: 75;
+    position: absolute; top: 1300; left: 75;
     height: 250;
-    width: fit-content;
+    width: 1100;
     z-index: 10;
 }
 
 .parade3 {
     z-index: 2;
     position: absolute; top: 1415; left: 150;
-    transition: 1s;
+    transition: top 1s, left 1s, width 1s, height 1s ease-in-out;
 }
 .parade3:hover{
-    top: 1240;
+    position: absolute; top: 1240;
     height: 350;
-    width: fit-content;
+    width: 620;
     z-index: 10;
 }
 
 .parade4 {
     z-index: 3;
     position: absolute; top: 1490; left: 150;
-    transition: 1s;
+    transition: top 1s, left 1s, width 1s, height 1s ease-out;
 }
 .parade4:hover{
-    top: 1240;
+    position: absolute; top: 1240;
     height: 350;
-    width: fit-content;
+    width: 620;
     z-index: 10;
 }
 
 .parade5 {
     z-index: 1;
     position: absolute; top: 1240; left: 890;
-    transition: 1s;
+    transition: top 1s, left 1s, width 1s, height 1s ease-in-out;
 }
 .parade5:hover{
     height: 350;
-    left: 540;
-    width: fit-content;
+    position: absolute; left: 540;
+    width: 620;
     z-index: 10;
 }
 
 .parade6 {
     z-index: 2;
     position: absolute; top: 1345; left: 890;
-    transition: 1s;
+    transition: top 1s, left 1s, width 1s, height 1s ease-in-out;
 }
 .parade6:hover{
     height: 350;
-    top: 1240;
-    left: 540;
-    width: fit-content;
+    position: absolute; top: 1240; left: 540;
+    width: 620;
     z-index: 10;
 }
 
 .parade7{
     z-index: 3;
     position: absolute; top: 1460; left: 890;
-    transition: 1s;
+    transition: top 1s, left 1s, width 1s, height 1s ease-out;
 }
 .parade7:hover{
-    top: 1240;
+    position: absolute; top: 1240; left: 540;
     height: 350;
-    left: 540;
-    width: fit-content;
+    width: 620;
     z-index: 10;
 }
